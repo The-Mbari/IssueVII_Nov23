@@ -353,6 +353,9 @@
     text-decoration: none;
   }
 
+  .artist, a:link, a:visited {
+    text-decoration: none;
+  }
   
   footer {
     text-align: center;
