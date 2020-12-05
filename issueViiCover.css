@@ -99,6 +99,18 @@
     font-variant:small-caps;
   }
 
+  .artist{
+    margin-left:7%;
+    margin-top:2%;
+    margin-bottom:2%;
+    text-align:center;
+    text-decoration: none;
+    color:#efe2d6
+  }
+
+  .artist, a:link, a:visited {
+    text-decoration: none;
+  }
 
   /* Issue Header*/
   .sections0{
@@ -157,25 +169,8 @@
 
   .grid-item { width: 600px;  }
   .grid-item{ height: 300px; }
-  
-  /* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 1000px) {
-  .grid-item {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-   /margin:auto;
-  }
-  .visualart{
-    width:100%;
-    height:auto;
-  }
 
-   .image{
-    width:100%;
-    height:auto;
-  } 
-}
-*/
-  .center {
+    .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -187,9 +182,26 @@
     width:600px;
   }
 
+  
+  /* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 1000px) {
+  .grid-item {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+   margin:auto;
+  }
   .visualart{
+    width: 100%;
     height:auto;
   }
+
+   .image{
+    width: 100%;
+    height:auto;
+  } 
+}
+*
+
+
  .prose{
     text-decoration: none;
   }
@@ -345,17 +357,7 @@
   }
 
     
-  .artist{
-    margin-left:7%;
-    margin-top:2%;
-    margin-bottom:2%;
-    text-align:center;
-    text-decoration: none;
-  }
 
-  .artist, a:link, a:visited {
-    text-decoration: none;
-  }
   
   footer {
     text-align: center;
